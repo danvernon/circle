@@ -1,5 +1,5 @@
-import React from 'react'
-// import { Link } from 'gatsby'
+import React from 'react';
+import { graphql } from 'gatsby';
 
 import Intro from '../components/Intro';
 import Layout from '../components/Layout';
@@ -14,11 +14,11 @@ const IndexPage = ( props ) => (
     />
     <Projects
       workOne={props.data.workOne.childImageSharp.fluid}
-      workTwo={props.data.workTwo.childImageSharp.fluid}
-      workThree={props.data.workThree.childImageSharp.fluid}
-      workFour={props.data.workFour.childImageSharp.fluid}
-      workFive={props.data.workFive.childImageSharp.fluid}
-      workSix={props.data.workSix.childImageSharp.fluid}
+      // workTwo={props.data.workTwo.childImageSharp.fluid}
+      // workThree={props.data.workThree.childImageSharp.fluid}
+      // workFour={props.data.workFour.childImageSharp.fluid}
+      // workFive={props.data.workFive.childImageSharp.fluid}
+      // workSix={props.data.workSix.childImageSharp.fluid}
     />
   </Layout>
 )
