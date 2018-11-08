@@ -14,9 +14,9 @@ const IndexPage = ( props ) => (
     />
     <Projects
       workOne={props.data.workOne.childImageSharp.fluid}
-      // workTwo={props.data.workTwo.childImageSharp.fluid}
-      // workThree={props.data.workThree.childImageSharp.fluid}
-      // workFour={props.data.workFour.childImageSharp.fluid}
+      workTwo={props.data.workTwo.childImageSharp.fluid}
+      workThree={props.data.workThree.childImageSharp.fluid}
+      workFour={props.data.workFour.childImageSharp.fluid}
       // workFive={props.data.workFive.childImageSharp.fluid}
       // workSix={props.data.workSix.childImageSharp.fluid}
     />
@@ -34,42 +34,42 @@ export const pageQuery = graphql`
         }
       }
     }
-    workOne: file(relativePath: { eq: "work/01.jpg" }) {
+    workOne: file(relativePath: { eq: "work/01.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    workTwo: file(relativePath: { eq: "work/02.jpg" }) {
+    workTwo: file(relativePath: { eq: "work/02.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    workThree: file(relativePath: { eq: "work/03.jpg" }) {
+    workThree: file(relativePath: { eq: "work/03.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    workFour: file(relativePath: { eq: "work/04.jpg" }) {
+    workFour: file(relativePath: { eq: "work/04.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    workFive: file(relativePath: { eq: "work/05.jpg" }) {
+    workFive: file(relativePath: { eq: "work/05.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid_noBase64
         }
       }
     }
-    workSix: file(relativePath: { eq: "work/06.jpg" }) {
+    workSix: file(relativePath: { eq: "work/06.png" }) {
       childImageSharp {
         fluid(maxWidth: 800) {
           ...GatsbyImageSharpFluid_noBase64

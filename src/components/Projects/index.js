@@ -22,19 +22,28 @@ export default class Projects extends Component  {
               type='Product Design, Web Development'
             />
             <Project
-              // image={this.props.workTwo}
+              image={this.props.workTwo}
+              link='https://www.customchurchapps.com'
+              title='Custom Church Apps'
+              type='Product Design, Web Development, CMS'
             />
             <Project
-              // image={this.props.workThree}
+              image={this.props.workThree}
+              link='https://itunes.apple.com/gb/app/freesupertips/id1154565903?mt=8'
+              title='FreeSuperTips'
+              type='Product Design, iOS Development'
             />
             <Project
-              // image={this.props.workFour}
+              image={this.props.workFour}
+              link='https://www.recruitd.com'
+              title='Recruitd'
+              type='Product Design, iOS Development, Web Development'
             />
             <Project
-              // image={this.props.workFive}
+              image={this.props.workFive}
             />
             <Project
-              // image={this.props.workSix}
+              image={this.props.workSix}
             />
           </Row>
         </Container>
